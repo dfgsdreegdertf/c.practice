@@ -10,3 +10,35 @@ int main(void)
     }
     return 0;
 }
+
+#include <stdio.h>
+/*
+int main(void)
+{
+    // 预设答案
+    int answer = 66;
+    int guess;
+
+    do
+    {
+        printf("请猜一个数字：");
+        scanf("%d", &guess);
+
+        if (guess > answer)
+        {
+            printf("猜大了！\n");
+        }
+        else if (guess < answer)
+        {
+            printf("猜小了！\n");
+        }
+        else
+        {
+            printf("猜对啦！\n");
+        }
+
+    } while (guess != answer);  // 没猜对就继续循环，末尾分号不能忘
+
+    return 0;
+}
+    */
